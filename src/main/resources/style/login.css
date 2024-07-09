@@ -1,0 +1,51 @@
+.root {
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-size: 16px;
+    -fx-background-image: url("../image/background.jpg");
+    -fx-background-size: cover;
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+}
+
+.login_container {
+    -fx-background-color: rgba(254, 232, 176, .9);
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: #9d7045;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 30, 0, 0, 0);
+}
+
+.login_label {
+    -fx-font-size: 2em;
+    -fx-font-weight: 800;
+    -fx-text-fill: #9d7045;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 1, 0, 0, 0);
+}
+
+.input_box {
+    -fx-min-width: 100%;
+    -fx-min-height: 30px;
+}
+
+.input_box_label {
+    -fx-font-size: 1em;
+    -fx-font-weight: 800;
+    -fx-text-fill: #9d7045;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 1, 0, 0, 0);
+
+}
+
+.btn {
+    -fx-min-height: 40px;
+    -fx-min-width: 200px;
+    -fx-background-color: #9d7045;
+    -fx-text-fill: #FEE8B0;
+    -fx-font-weight: 800;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 1, 0, 0, 0);
+}
+
+.btn:hover {
+    -fx-background-color: #FEE8B0;
+    -fx-text-fill: #9d7045;
+    -fx-opacity: .5;
+}
